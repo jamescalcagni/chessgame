@@ -92,11 +92,10 @@ Likewise, my code does not check the case for a stalemate but with the same logi
 turn it is will not be able to make any moves and therefore they should be able to determine that for themselves and
 exit the game.  Also, I did not account for certain advanced special chess moves like "castling" or "en pessent", (I believe I could
 have coded this I just did not have the time/motivation). However, I did code the special case for a "pawn promotion" which deals
-with the case when a pawn reaches the other end of the board and is promoted to a new status both for when a pawn
-captures a piece on the last row and is promoted or when it walks straight onto the last row as this comes up in regular
-play.   NOTE: normally in pawn promotion you can choose any piece besides a king, but my program just automatically changes
- you to a queen when you reach  the other side of the board which is likely what you would want anyway except in rare
- cases where a knight could be more useful, but I decided just to do it this way.
+with the case when a pawn reaches the other end of the board and is promoted to a new status- both for when a pawn captures a piece on
+the last row or when it simply walks straight onto the last row.  NOTE: normally in pawn promotion you can choose any piece besides a
+king, but my program just automatically changes you to a queen when you reach  the other side of the board which is likely what you
+would want anyway except in rare cases where a knight could be more useful, but I decided just to do it this way.
 
 
 At this point in my coding I went back to my UserInterface class and added Mouse Click events so that I could move the
