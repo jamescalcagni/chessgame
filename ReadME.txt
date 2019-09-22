@@ -1,7 +1,7 @@
 Author: James Calcagni
 Created for: Rutgers CS-111 Summer 2019
 
-
+--Built using IntelliJ
 
 --How to Run:
 To run the game  download the 3 files (UserInterface.java, ChessGame.java, and ChessPieces.jpg) to the same folder.  
@@ -23,29 +23,27 @@ and you will only be able to move the black pieces.
 
 --About my project:
 
-I decided for my project to create a two player Chess game.  I did think this was very ambitious, but I really love chess
-and thought that I would be able to do it and was up for a challenge. Once I realized just how hard it was I was already
-committed and doubled down.  I am extremely happy I did so, and really like how my project turned out. As I have never
-done anything like this before (with the exception of the rock, paper, scissors, and tic-tac-toe games I coded in prepping
-for the midterms for this class) which were much smaller scale, I did not originally know where to start and spent many
- hours watching youtube videos and pouring through StackOverflow and what help I could find from various websites online.
- I would say I spent AT LEAST 30% of my time in this planning stage.  As I learned more about the process that goes into
- creating a chess game in Java I realized right away that there are a large variety of ways to go about this.
+I decided for my project to create a two player Chess game.  I did think this was very ambitious for my first major project,
+but I really love chess really like how my project turned out. I did not originally know where to start and spent many
+hours watching youtube videos and pouring through StackOverflow and what help I could find from various websites online.
+I would say I spent AT LEAST 30% of my time in this planning stage.  As I learned more about the process that goes into
+creating a chess game in Java I realized right away that there are a large variety of ways to go about this.
 
 Initially I started with the actual chess logic and figured out how I could go about making the rules for each piece.  I
 started by using a hierarchical inheritance structure; making  a separate subclass for each piece extending from a larger
 class "Piece" which held all of the pieces and contained their common characteristics (i.g. can capture, can be captured,
 can move, etc).  I do not regret this initial attempt as I was easily able to keep the logic separate and learn the
-process of coding a chess game.I then began to try and create the interface that would appear on the screen.
+process of coding a chess game.  I then began to try and create the interface that would appear on the screen.
 
-Before this project I had essentially never programmed a graphical user interface, but I determined for a game like chess
-it was absolutely necessary.  Despite being a novice to GUI, I found the concepts of JLabel and JPanel to be pretty
+Before this project I had never programmed a graphical user interface, but I determined for a game like chess
+it was absolutely necessary.  Despite being a novice to GUI, I found the concepts of JLabel and JPanel to be fairly
 straightforward and after a few youtube videos and some practice I got the hang of it.  I began by creating an array of
-64 Jbuttons, but later discovered that it was easier for me to just use a switch to sort through an array of images and
-place them on a painted Jframe which i designed to look like a chess board.  While this was new to me I found the concept behind gui to
-be pretty simple and found it very fun to mess around with once I got my board up and running, and even when my program
-wasn't doing what I wanted it to, at least it looked nice.  Once  I had a basic graphical interface and  was  able to put
-the chess pieces on the board where they should initially go, I began to try and implement movement of pieces.
+64 Jbuttons, but later discovered that it was easier for me to just use a switch statement to sort through an array of images and
+place them on a painted Jframe which I designed to look like a chess board.  While this was new to me I found the concept behind GUI to
+be pretty simple and once I got my board up and running I found it very fun to mess around with. This was a major breakthrough because
+even when my program wasn't doing exactly what I wanted it to, I was comforted by the fact that at least it looked nice. Once  I had a
+basic graphical interface and  was  able to put the chess pieces on the board where they should initially go, I began to try
+andimplement movement of pieces.
 
 I soon discovered that it was very difficult the way my code was set up to use the separate classes, for me I simply
 had too much going on and abandoned this initial attempt.  I started from scratch and found that by creating a board
@@ -125,7 +123,7 @@ I hope you enjoy!
 --Chess Engine:
 I spent a while toying with the idea of creating a computer chess engine to play against the player.  While at first that
 sounded daunting, after looking into it I do think that given more time I would be able to pretty easily implement a
-basic chess engine into my program using a minmax algorithm and  the concepts we learned in class.  However,
+basic chess engine into my program using a minmax algorithm and the concepts we learned in this class.  However,
 I simply did not have the time nor motivation to implement this.  I do plan to do so in the future.
 
 
@@ -155,4 +153,3 @@ Other websites I stumbled across:
 -> probably many more...
 
 
---Built using IntelliJ
