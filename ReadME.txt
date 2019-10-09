@@ -10,7 +10,7 @@ Navigate to that folder in your command line and then run by typing:
 
 OR
 
-Simply double click the JAR executable file named CalcagniChess.jar 
+Simply download then double click the JAR executable file named CalcagniChess.jar 
 
 
 --How to play:
